@@ -68,7 +68,7 @@ public class YouTubeSearchTests extends BaseTest{
 				System.out.println("Infinity Page Scrolling is ENDED. Total Loaded Videos Count = "+beforeScrollVideosCount);	
 				finallLoadedVideosCount = afterScrollVideosCount;
 			}
-			initialLoadedVideosCount = (initialLoadedVideosCount==null) ? beforeScrollVideosCount : null;
+			initialLoadedVideosCount = (initialLoadedVideosCount==null) ? beforeScrollVideosCount : initialLoadedVideosCount;
 			System.out.println("*****************************************");			
 		}while(beforeScrollVideosCount!=null && afterScrollVideosCount!=null && beforeScrollVideosCount.intValue()!=afterScrollVideosCount.intValue());
 		if(initialLoadedVideosCount.intValue() == finallLoadedVideosCount.intValue()) {

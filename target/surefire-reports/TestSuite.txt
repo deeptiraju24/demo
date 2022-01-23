@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 232.222 sec - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 235.019 sec <<< FAILURE! - in TestSuite
+searchTextAndVerifyInfiniteScrolling(com.youtube.tests.YouTubeSearchTests)  Time elapsed: 213.831 sec  <<< FAILURE!
+java.lang.AssertionError: Infinite Scrolling is not working. Initial Loaded videos count is same as Final Loaded videos count. Count=658
+	at com.youtube.tests.YouTubeSearchTests.searchTextAndVerifyInfiniteScrolling(YouTubeSearchTests.java:75)
+

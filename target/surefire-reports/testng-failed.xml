@@ -5,9 +5,9 @@
     <classes>
       <class name="com.youtube.tests.YouTubeSearchTests">
         <methods>
+          <include name="searchTextAndVerifyInfiniteScrolling"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="verifyYouTubeAppsList"/>
         </methods>
       </class> <!-- com.youtube.tests.YouTubeSearchTests -->
     </classes>
