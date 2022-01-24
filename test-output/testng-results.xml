@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-24T00:05:49 IST" name="Default suite" finished-at="2022-01-24T00:09:38 IST" duration-ms="228224">
+  <suite started-at="2022-01-23T23:36:42 PST" name="Sample Demo Test SUite" finished-at="2022-01-23T23:38:46 PST" duration-ms="124421">
     <groups>
     </groups>
-    <test started-at="2022-01-24T00:05:49 IST" name="Default test" finished-at="2022-01-24T00:09:38 IST" duration-ms="228224">
+    <test started-at="2022-01-23T23:36:42 PST" name="Sample Demo TestCase" finished-at="2022-01-23T23:38:46 PST" duration-ms="124421">
       <class name="com.youtube.tests.YouTubeSearchTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.youtube.tests.YouTubeSearchTests@29215f06]" started-at="2022-01-24T00:05:49 IST" name="setup" finished-at="2022-01-24T00:05:55 IST" duration-ms="5926" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.youtube.tests.YouTubeSearchTests@290222c1]" started-at="2022-01-23T23:36:42 PST" name="setup" finished-at="2022-01-23T23:36:44 PST" duration-ms="2318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launchYouTube()[pri:1, instance:com.youtube.tests.YouTubeSearchTests@29215f06]" started-at="2022-01-24T00:05:55 IST" name="launchYouTube" finished-at="2022-01-24T00:06:02 IST" duration-ms="6417" status="PASS">
+        <test-method signature="launchYouTube()[pri:1, instance:com.youtube.tests.YouTubeSearchTests@290222c1]" started-at="2022-01-23T23:36:44 PST" name="launchYouTube" finished-at="2022-01-23T23:36:47 PST" duration-ms="2822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchYouTube -->
-        <test-method signature="verifyYouTubeLogo()[pri:2, instance:com.youtube.tests.YouTubeSearchTests@29215f06]" started-at="2022-01-24T00:06:02 IST" name="verifyYouTubeLogo" finished-at="2022-01-24T00:06:02 IST" duration-ms="400" status="PASS">
+        <test-method signature="verifyYouTubeLogo()[pri:2, instance:com.youtube.tests.YouTubeSearchTests@290222c1]" started-at="2022-01-23T23:36:47 PST" name="verifyYouTubeLogo" finished-at="2022-01-23T23:36:47 PST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYouTubeLogo -->
-        <test-method signature="verifyYouTubeAppsList()[pri:3, instance:com.youtube.tests.YouTubeSearchTests@29215f06]" started-at="2022-01-24T00:06:02 IST" name="verifyYouTubeAppsList" finished-at="2022-01-24T00:06:07 IST" duration-ms="5285" status="PASS">
+        <test-method signature="verifyYouTubeAppsList()[pri:3, instance:com.youtube.tests.YouTubeSearchTests@290222c1]" started-at="2022-01-23T23:36:47 PST" name="verifyYouTubeAppsList" finished-at="2022-01-23T23:36:51 PST" duration-ms="4228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYouTubeAppsList -->
-        <test-method signature="searchTextAndVerifyInfiniteScrolling()[pri:4, instance:com.youtube.tests.YouTubeSearchTests@29215f06]" started-at="2022-01-24T00:06:07 IST" name="searchTextAndVerifyInfiniteScrolling" finished-at="2022-01-24T00:09:36 IST" duration-ms="208708" status="PASS">
+        <test-method signature="searchTextAndVerifyInfiniteScrolling()[pri:4, instance:com.youtube.tests.YouTubeSearchTests@290222c1]" started-at="2022-01-23T23:36:51 PST" name="searchTextAndVerifyInfiniteScrolling" finished-at="2022-01-23T23:38:46 PST" duration-ms="114327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTextAndVerifyInfiniteScrolling -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.youtube.tests.YouTubeSearchTests@29215f06]" started-at="2022-01-24T00:09:36 IST" name="teardown" finished-at="2022-01-24T00:09:38 IST" duration-ms="1371" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.youtube.tests.YouTubeSearchTests@290222c1]" started-at="2022-01-23T23:38:46 PST" name="teardown" finished-at="2022-01-23T23:38:46 PST" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.youtube.tests.YouTubeSearchTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Sample Demo TestCase -->
+  </suite> <!-- Sample Demo Test SUite -->
 </testng-results>
